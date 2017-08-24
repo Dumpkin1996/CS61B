@@ -43,6 +43,7 @@ public class Traveler {
         hopsTaken += 1;
         timeOfLastStop = System.currentTimeMillis();
     }
+
      public void collectTreasure() {
          treasures += 1;
      }

@@ -6,7 +6,7 @@ public class EscapeFromTheSodaLabs extends Trial {
      * hops as possible. You may set only one breakpoint.
      */
     public static void main(String[] args) {
-        Traveler cal = new Traveler("General Ackbar", 5, 8);
+        Traveler cal = new Traveler("General Ackbar", 5, 5);
         treasureChest(cal);
         trap(cal);
         treasureChest(cal);
