@@ -97,6 +97,18 @@ public class IntList {
             return new IntList(A.first, catenate(A.rest, B));
     }
 
+    public void addFirst (int x) {
+        rest = this;
+        first = x;
+    }
+
+    public static void main (String [] args) {
+        IntList a = new IntList ();
+        a.addFirst(5);
+        System.out.println(a.first);
+        a.addFirst(10);
+        System.out.println(a.first);
+    }
 
     /**
      * DO NOT MODIFY ANYTHING BELOW THIS LINE! Many of the concepts below here
