@@ -93,11 +93,4 @@ public class ArrayDeque <Item> {
         return items[ (nextFirst + index + 1) % capacity ];
     }
 
-
-
-
-
-
-
-
 }

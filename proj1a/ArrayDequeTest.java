@@ -147,7 +147,6 @@ public class ArrayDequeTest {
         lld1.addLast(6);
         lld1.addLast(2);
 
-
         passed = checkGet(9, lld1.get(10)) && passed;
         passed = checkGet(2, lld1.get(21)) && passed;
         passed = checkSize(22, lld1.size()) && passed;
